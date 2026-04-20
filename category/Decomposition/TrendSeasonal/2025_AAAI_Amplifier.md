@@ -1,0 +1,1 @@
+/home/bcml/jihwan/TSF-Searching/category/Freq-domain/FFT/Architecture/MLP/2025_AAAI_Amplifier.md

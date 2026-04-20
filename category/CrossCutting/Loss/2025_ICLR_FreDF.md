@@ -1,0 +1,1 @@
+/home/bcml/jihwan/TSF-Searching/category/Freq-domain/FFT/Architecture/Linear/2025_ICLR_FreDF.md

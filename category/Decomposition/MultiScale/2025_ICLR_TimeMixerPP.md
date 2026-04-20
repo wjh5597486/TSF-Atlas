@@ -1,0 +1,1 @@
+/home/bcml/jihwan/TSF-Searching/category/Decomposition/TrendSeasonal/2025_ICLR_TimeMixerPP.md

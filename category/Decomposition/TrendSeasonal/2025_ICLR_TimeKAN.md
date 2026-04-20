@@ -1,0 +1,1 @@
+/home/bcml/jihwan/TSF-Searching/category/Freq-domain/PeriodicityGuided/2025_ICLR_TimeKAN.md

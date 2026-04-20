@@ -1,0 +1,1 @@
+../../Decomposition/MultiScale/2025_KDD_TimeCapsule.md
