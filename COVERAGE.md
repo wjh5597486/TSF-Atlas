@@ -16,19 +16,15 @@ TSF-Atlas에서 (venue, year) 단위로 전수조사 진행 상태를 추적.
 
 ## 현황 표
 
-| 구분       | Venue    | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
-|------------|----------|------|------|------|------|------|------|------|------|------|------|------|------|
-| Conference | NeurIPS  | X    | X    | X    | X    | X    | X    | O    | O    | O    | O    | O    | X    |
-| Conference | ICML     | X    | X    | X    | X    | X    | X    | O    | O    | O    | O    | O    | X    |
-| Conference | ICLR     | X    | X    | X    | X    | X    | X    | O    | O    | O    | O    | O    | X    |
-| Conference | AAAI     | X    | X    | X    | X    | X    | X    | O    | O    | O    | O    | O    | X    |
-| Conference | KDD      | X    | X    | X    | X    | X    | X    | O    | O    | O    | O    | O    | X    |
-| Conference | IJCAI    | X    | X    | X    | X    | X    | X    | -    | X    | O    | O    | O    | X    |
-| Conference | CVPR     | X    | X    | X    | X    | X    | X    | -    | X    | -    | -    | -    | X    |
-| Journal    | TPAMI    | X    | X    | X    | X    | X    | X    | X    | X    | X    | X    | X    | P    |
-| Journal    | TNNLS    | X    | X    | X    | X    | X    | X    | X    | X    | X    | X    | X    | P    |
-| Journal    | TKDE     | X    | X    | X    | X    | X    | X    | X    | X    | X    | X    | X    | P    |
-| Journal    | JMLR     | X    | X    | X    | X    | X    | X    | X    | X    | X    | X    | X    | P    |
+| 구분       | Venue    | 2019 | 2020 | 2021   | 2022   | 2023    | 2024    | 2025    | 2026 |
+|------------|----------|------|------|--------|--------|---------|---------|---------|------|
+| Conference | NeurIPS  | X    | X    | O(1)   | O(6)   | O(12)   | O(18)   | O(19)   | X    |
+| Conference | ICML     | X    | X    | O(2)   | O(1)   | O(4)    | O(10)   | O(20)   | X    |
+| Conference | ICLR     | X    | X    | O(0)   | O(3)   | O(7)    | O(17)   | O(13)   | X    |
+| Conference | AAAI     | X    | X    | O(4)   | O(3)   | O(3)    | O(6)    | O(19)   | X    |
+| Conference | KDD      | X    | X    | O(1)   | O(4)   | O(2)    | O(4)    | O(7)    | X    |
+| Conference | IJCAI    | X    | X    | -      | X      | O(2)    | O(5)    | O(7)    | X    |
+| Conference | CVPR     | X    | X    | -      | X      | -       | -       | -       | X    |
 
 ## Sweep Log
 각 완주 이벤트를 한 줄씩 아래에 append.

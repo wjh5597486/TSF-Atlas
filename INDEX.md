@@ -5,9 +5,8 @@ TSF-Atlas에 정리된 논문 전체 목록.
 작성 규칙은 [CLAUDE.md](./CLAUDE.md) §6 참고.
 
 ## 통계
-- 총 논문 수: 205 (Journal 5편 별도 집계)
-- ETTh1 reports: 176 / 미보고: 15 (PIKAN, RATD, MOMENT, FSNet, LLMTime, TSDiff, GPT4MTS, Time-MoE, LinOSS, P-sLSTM, HDT, TiRex, Sundial, WaveToken, RLMC, DSARF)
-- Journal 논문 (Q1-Q2): 5 — TEFN(TPAMI 2025), PromptCast(TKDE 2023), SCNN(TKDE 2024), Dozerformer(Sci Reports 2024), STD(TKDE 2023) → [journal/](./journal/) 폴더 참조
+- 총 논문 수: 200
+- ETTh1 reports: 171 / 미보고: 15 (PIKAN, RATD, MOMENT, FSNet, LLMTime, TSDiff, GPT4MTS, Time-MoE, LinOSS, P-sLSTM, HDT, TiRex, Sundial, WaveToken, RLMC, DSARF)
 - (Venue, Year) 완주: 26 (NeurIPS 2021, ICML 2021, ICLR 2022, ICLR 2024, KDD 2024, NeurIPS 2024, IJCAI 2024, AAAI 2023, KDD 2023, IJCAI 2023, ICML 2024, CVPR 2024, ICLR 2023, NeurIPS 2023, ICML 2023, AAAI 2024, ICLR 2025, AAAI 2025, NeurIPS 2025, ICML 2025, KDD 2025, IJCAI 2025, ICML 2022, AAAI 2022, KDD 2022, **AAAI 2021**) — 상세는 [COVERAGE.md](./COVERAGE.md)
 - 마지막 업데이트: 2026-04-20
 
@@ -216,11 +215,6 @@ TSF-Atlas에 정리된 논문 전체 목록.
 | 191 | TARNet | 2022 | KDD | [Time-domain/Transformer](./category/Time-domain/Transformer/2022_KDD_TARNet.md) | - | ✓ | see paper |
 | 192 | STEP | 2022 | KDD | [Time-domain/Graph](./category/Time-domain/Graph/2022_KDD_STEP.md) | - | ✓ | see paper |
 | 193 | EvoMTS | 2022 | KDD | [Time-domain/Graph](./category/Time-domain/Graph/2022_KDD_EvoMTS.md) | MultiScale | ✓ | see paper |
-| 194 | TEFN | 2025 | TPAMI | [journal/TPAMI](./journal/TPAMI/2025_TPAMI_TEFN.md) | - | ✓ | ~0.370 (96) |
-| 195 | PromptCast | 2023 | TKDE | [journal/TKDE](./journal/TKDE/2023_TKDE_PromptCast.md) | - | ✓ | 0.494 (96) |
-| 196 | SCNN | 2024 | TKDE | [journal/TKDE](./journal/TKDE/2024_TKDE_SCNN.md) | - | ✓ | ~0.376 (96) |
-| 197 | Dozerformer | 2024 | Sci Reports | [journal/SciReports](./journal/SciReports/2024_SciReports_Dozerformer.md) | - | ✓ | ~0.386 (96) |
-| 198 | STD | 2023 | TKDE | [journal/TKDE](./journal/TKDE/2023_TKDE_STD.md) | - | ✓ | 0.287 (24) |
 
 > 컬럼 설명
 > - **Model**: 논문에서 제시한 모델명 (없으면 `<1저자>_etal`)

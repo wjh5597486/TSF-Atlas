@@ -8,8 +8,7 @@ ETTh1 데이터셋을 사용하는 Time Series Forecasting(TSF) 모델들을 조
 ## 1. 조사 범위 (Scope)
 
 - **대상 학회**: NeurIPS, ICML, ICLR, AAAI (필요 시 KDD, CVPR, IJCAI 포함)
-- **대상 저널**: Q1 이상 (TPAMI, TNNLS, TKDE, JMLR 등)
-- **연도**: 제한 없음 (단, 최근 5년 우선)
+- **연도**: 2019년 이후 우선. 그 이전은 필요 시 개별 추가.
 - **ETTh1 실험**: 필수는 아님. 단, **ETTh1 결과를 보고한 논문이라면 재현에 필요한 setting(input length, horizon, normalization, lookback, batch size 등)을 반드시 기록**.
 
 ## 2. 폴더 구조 규칙
@@ -152,7 +151,7 @@ pdf_source: <arxiv | openreview | acm | publisher | none>
 
 ## 6. 인덱스 관리
 
-- 루트의 `INDEX.md`에 전체 논문 목록을 표로 유지.
+- 루트의 `INDEX.md`에 전체 논문 목록을 표로 유지. **학회 논문만** 기재 (저널 제외).
 - 컬럼: 모델명 / 연도 / 학회 / primary 경로 / related 경로 / ETTh1 reports / ETTh1 best MSE.
 - 중복 배치 논문은 **INDEX에 1행만** 기재하고 related 경로 컬럼에 콤마로 나열.
 - 새 논문을 추가하거나 심볼릭 링크를 만들 때마다 `INDEX.md`도 같이 갱신.
@@ -181,14 +180,14 @@ pdf_source: <arxiv | openreview | acm | publisher | none>
    - 없으면 §4 템플릿으로 작성, §2 Primary 경로 선택 규칙에 따라 primary 결정, 필요 시 심볼릭 링크 생성.
    - 원본 PDF 취득(§9).
 5. **갱신**: `INDEX.md`에 각 논문 1행 추가.
-6. **완주 마감**: `COVERAGE.md` 해당 셀을 `O`로 변경, `## Sweep Log`에 `YYYY-MM-DD (구분, Venue, Year): n papers collected. notes.` 한 줄 append.
+6. **완주 마감**: `COVERAGE.md` 해당 셀을 `O(n)`(n = 수집 논문 수)으로 변경, `## Sweep Log`에 `YYYY-MM-DD (구분, Venue, Year): n papers collected. notes.` 한 줄 append.
 
 ### 상태 기호 (COVERAGE.md와 동일)
-- `O` 완료 · `X` 미시작 · `P` 진행중 · `-` 해당 연도에 TSF 논문 없음 확인
+- `O(n)` 완료 (n = 수집 논문 수) · `X` 미시작 · `P` 진행중 · `-` 해당 연도에 TSF 논문 없음 확인
 
-### 저널 취급
-- 저널은 누적 발행이므로 `(journal, year)` 또는 `(journal, year, 분기)` 단위 스윕 허용. 저널 셀은 해당 연도 전체 분기가 커버되어야 `O`.
-- 아직 종료되지 않은 해의 저널은 기본 `P`.
+### COVERAGE.md 표 규칙
+- 연도 컬럼은 **2019년부터** 시작. 그 이전 연도는 컬럼 추가 금지.
+- **Conference 행만** 유지 (저널 행 없음).
 
 ## 9. README.md 유지 규칙
 
