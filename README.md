@@ -9,21 +9,17 @@ NeurIPS · ICML · ICLR · AAAI · KDD · IJCAI 등 주요 학회와 저널의 T
 
 ## 수집 현황 (Venue × Year)
 
-> 상태 기호: **O** 완료 · **X** 미시작 · **P** 진행중 · **-** TSF 논문 없음 확인
+> 상태 기호: **O(n)** 완료(n=수집 논문 수) · **X** 미시작 · **P** 진행중 · **-** TSF 논문 없음 확인
 
-| 구분       | Venue    | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
-|------------|----------|------|------|------|------|------|------|------|------|------|------|------|------|
-| Conference | NeurIPS  | X    | X    | X    | X    | X    | X    | O    | O    | O    | O    | O    | X    |
-| Conference | ICML     | X    | X    | X    | X    | X    | X    | O    | O    | O    | O    | O    | X    |
-| Conference | ICLR     | X    | X    | X    | X    | X    | X    | O    | O    | O    | O    | O    | X    |
-| Conference | AAAI     | X    | X    | X    | X    | X    | X    | O    | O    | O    | O    | O    | X    |
-| Conference | KDD      | X    | X    | X    | X    | X    | X    | O    | O    | O    | O    | O    | X    |
-| Conference | IJCAI    | X    | X    | X    | X    | X    | X    | -    | X    | O    | O    | O    | X    |
-| Conference | CVPR     | X    | X    | X    | X    | X    | X    | -    | X    | -    | -    | -    | X    |
-| Journal    | TPAMI    | X    | X    | X    | X    | X    | X    | X    | X    | X    | X    | X    | P    |
-| Journal    | TNNLS    | X    | X    | X    | X    | X    | X    | X    | X    | X    | X    | X    | P    |
-| Journal    | TKDE     | X    | X    | X    | X    | X    | X    | X    | X    | X    | X    | X    | P    |
-| Journal    | JMLR     | X    | X    | X    | X    | X    | X    | X    | X    | X    | X    | X    | P    |
+| Venue   | 2019 | 2020 | 2021   | 2022   | 2023    | 2024    | 2025    | 2026 |
+|---------|------|------|--------|--------|---------|---------|---------|------|
+| NeurIPS | X    | X    | O(1)   | O(6)   | O(12)   | O(18)   | O(19)   | X    |
+| ICML    | X    | X    | O(2)   | O(1)   | O(4)    | O(10)   | O(20)   | X    |
+| ICLR    | X    | X    | O(0)   | O(3)   | O(7)    | O(17)   | O(13)   | X    |
+| AAAI    | X    | X    | O(4)   | O(3)   | O(3)    | O(6)    | O(19)   | X    |
+| KDD     | X    | X    | O(1)   | O(4)   | O(2)    | O(4)    | O(7)    | X    |
+| IJCAI   | X    | X    | -      | X      | O(2)    | O(5)    | O(7)    | X    |
+| CVPR    | X    | X    | -      | X      | -       | -       | -       | X    |
 
 ---
 

@@ -90,7 +90,7 @@ tags: [time-domain | freq-domain | wavelet | fft | transformer | mlp | ssm | dif
 primary_category: <실제 .md가 위치한 경로>
 related_categories: []   # 심볼릭 링크로 참조되는 다른 카테고리 경로들
 reports_etth1: <true | false>
-swept_in: <YYYY-MM-DD>        # 이 논문이 수집된 sweep 일자 (COVERAGE.md Sweep Log와 연결)
+swept_in: <YYYY-MM-DD>        # 이 논문이 수집된 sweep 일자 (README.md 수집 현황 표와 연결)
 pdf_local: <./<same_basename>.pdf 또는 빈값>
 pdf_source: <arxiv | openreview | acm | publisher | none>
 ---
@@ -164,7 +164,7 @@ pdf_source: <arxiv | openreview | acm | publisher | none>
   3. 적절한 카테고리 경로 제안(없으면 신설 여부 확인 후 생성)
   4. 기여가 여러 카테고리에 걸치면 primary 외 경로에 **심볼릭 링크** 생성 (`ln -s ../../../<primary>/file.md <related>/file.md`). PDF는 복제하지 않음.
   5. `INDEX.md` 갱신
-  6. sweep 단위 작업 중이었다면 `COVERAGE.md`도 갱신
+  6. sweep 단위 작업 중이었다면 `README.md` 수집 현황 표도 갱신
 - primary 경로 선택이 애매할 때는 임의 배치하지 말고 **사용자에게 확인**.
 
 ## 8. 수집 워크플로 (Venue-Year Sweep)
@@ -172,7 +172,7 @@ pdf_source: <arxiv | openreview | acm | publisher | none>
 한 번의 작업 단위는 **`(venue, year)` 조합**이다. 목표는 해당 조합에서 TSF(ETTh1 관련 또는 ETTh1 비교 가능) 논문을 **전수조사**하여 해당되는 모든 논문에 `.md`가 생성/갱신된 상태로 만드는 것.
 
 ### 절차
-1. **개시**: 대상 `(venue, year)`를 사용자와 확정. `COVERAGE.md`에서 해당 셀 상태를 `P`(진행중)로 변경.
+1. **개시**: 대상 `(venue, year)`를 사용자와 확정. `README.md` 수집 현황 표에서 해당 셀을 `P`(진행중)로 변경.
 2. **논문 목록 확보**: OpenReview / Proceedings / dblp / Papers-with-Code 등에서 accepted paper 목록 확보.
 3. **필터**: 제목·abstract 기준으로 "time series forecasting / long-term forecasting / multivariate forecasting / ETTh(1-2) / ETTm(1-2) / Electricity / Traffic / Weather / ILI" 키워드가 걸리는 논문 선별.
 4. **각 논문 처리**:
@@ -180,12 +180,12 @@ pdf_source: <arxiv | openreview | acm | publisher | none>
    - 없으면 §4 템플릿으로 작성, §2 Primary 경로 선택 규칙에 따라 primary 결정, 필요 시 심볼릭 링크 생성.
    - 원본 PDF 취득(§9).
 5. **갱신**: `INDEX.md`에 각 논문 1행 추가.
-6. **완주 마감**: `COVERAGE.md` 해당 셀을 `O(n)`(n = 수집 논문 수)으로 변경, `## Sweep Log`에 `YYYY-MM-DD (구분, Venue, Year): n papers collected. notes.` 한 줄 append.
+6. **완주 마감**: `README.md` 수집 현황 표의 해당 셀을 `O(n)`(n = 수집 논문 수)으로 변경.
 
-### 상태 기호 (COVERAGE.md와 동일)
+### 상태 기호 (README.md 수집 현황 표와 동일)
 - `O(n)` 완료 (n = 수집 논문 수) · `X` 미시작 · `P` 진행중 · `-` 해당 연도에 TSF 논문 없음 확인
 
-### COVERAGE.md 표 규칙
+### 수집 현황 표 규칙
 - 연도 컬럼은 **2019년부터** 시작. 그 이전 연도는 컬럼 추가 금지.
 - **Conference 행만** 유지 (저널 행 없음).
 
